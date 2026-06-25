@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    line-height:1.6;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:violet;
+    color:white;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+
+
+
+
+
+.about-section{
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.about-section h1,
+.about-section h2{
+    margin-bottom: 15px;
+}
+
+.team-container{
+    margin-top: 20px;
+}
+
+.card{
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
